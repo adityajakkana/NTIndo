@@ -1,0 +1,2 @@
+npm install @aws-sdk/client-bedrock-runtime dotenv
+npm install node-sql-parser
