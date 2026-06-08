@@ -24,7 +24,16 @@ const bedrockClient = new BedrockRuntimeClient({
 });
 
 // We are switching from InvokeModel to ConverseCommand, which handles tools perfectly.
-const MODEL_ID = "meta.llama3-70b-instruct-v1:0"; 
+//const MODEL_ID = "meta.llama3-70b-instruct-v1:0"; 
+//const MODEL_ID = "meta.llama3-70b-instruct-v1:0"; 
+// If Llama 3 throws a tool compatibility error in Bedrock, uncomment Claude below:
+// const MODEL_ID = "anthropic.claude-3-sonnet-20240229-v1:0"; 
+//const MODEL_ID = "us.anthropic.claude-haiku-4-5-20251001-v1:0";
+//const MODEL_ID = "amazon.nova-micro-v1:0";
+//const MODEL_ID = "anthropic.claude-3-sonnet-20240229-v1:0"
+//const MODEL_ID ="global.anthropic.claude-3-haiku-20240307-v1:0"
+//const MODEL_ID ="cohere.command-r-v1:0"
+const MODEL_ID ="apac.anthropic.claude-haiku-4-5-20251001-v1:0"
 // If Llama 3 throws a tool compatibility error in Bedrock, uncomment Claude below:
 // const MODEL_ID = "anthropic.claude-3-sonnet-20240229-v1:0"; 
 
